@@ -2,8 +2,8 @@
 ---
 ##### Contacts:
 Location: Minsk, Belarus <br>
-Phone: +375 29 355-95-78 <br>
-Email: a.a.hrushevsky@gmail.com <br>
+Phone: +375291234567 <br>
+Email: a.a.hru@gmail.com <br>
 ## GitHub: https://aagrushevsky.github.io/rsschool-cv/cv
 ---
 ##### About Me
