@@ -1,0 +1,126 @@
+* {
+	font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth; 
+}  
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.container { 
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color:#f0f0f0; 
+}
+h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #6d5a5a;   
+    background: radial-gradient(circle at 80% -80%, rgb(91, 161, 241) 30%, transparent 80.5%);
+    } 
+ul{     
+    font-size: 24px;
+    line-height: 40px;
+    list-style-type: none;  
+    }
+code {
+    font-size: 24px;
+}
+a:hover {
+    color: #ff0000;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+    .nav_list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        font-size: 32px;
+        font-weight: 700;   
+    }
+    .nav_link {
+        color:black;
+        text-decoration: none;    
+    }  
+    .nav_link:hover {
+        color: #4b53f2;
+        text-decoration: overline;
+        transition: color 0.5s;
+    }
+    .about_wrapper {
+        font-size: 24px;
+        display: flex;
+        justify-content: space-around;
+        color: #474a4b;
+    }
+    .about_photo {
+        width: 320px;
+    }
+    .about_text {
+        padding: 30px 0 0 80px;
+    }
+
+    code {
+        background-color:#e6e6e6;
+    }
+    footer {
+        font-size: 24px;
+        background-color: #e7ede7;    
+        text-align: center;
+        }
+
+    .footer_info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+@media (max-width: 1200px) {
+    .nav_link {        
+        font-size: 24px;        
+    }
+}
+
+@media (max-width: 991px) {
+    .nav_link {        
+        font-size: 18px;        
+    }
+    h2 {
+        font-size: 24px;    
+    }
+    footer {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav {
+        width: 100%;
+    }
+    .nav_list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        list-style: none;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .nav_link {
+        padding-left: 5px;
+    }
+
+    .about_wrapper {
+        
+        display: flex;
+        flex-wrap: wrap;
+        color: #474a4b;   
+    }
+    .about_text {
+        padding: 0 0 0 40px;
+    }
+}
